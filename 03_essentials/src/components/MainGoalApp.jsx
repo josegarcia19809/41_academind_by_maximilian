@@ -1,5 +1,15 @@
-import MainGoal from "./MainGoal.jsx";
-
+// DEFINE YOUR COMPONENT HERE
+// IMPORTANT: Add "export" in front of your component - otherwise the automated tests won't work
+// ...
+export const MainGoal = () => {
+    return (
+        <>
+            <p>My main goal: Learn React in-depth and from the ground up</p>
+        </>
+    );
+};
+// DO NOT EDIT THE APP COMPONENT NAME OR CONTENT
+// Except for outputting your custom component
 const MainGoalApp = () => {
     return (
         <>
