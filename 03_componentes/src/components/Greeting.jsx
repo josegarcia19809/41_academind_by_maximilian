@@ -14,7 +14,7 @@ function TodoList() {
 
     function Product({title, price, id}) {
         // desestructuración en acción
-    …
+
         // title, price, id ahora están disponibles como variables dentro de esta función
     }
 
