@@ -1,11 +1,11 @@
-import App07 from "./components/07-storing-cmp-in-files/App_07.jsx";
-
+import App_06 from "./components/06_component_composition/App_06.jsx";
+import "./components/06_component_composition/index.css"
 
 function App() {
 
     return (
         <>
-            <App07/>
+            <App_06/>
         </>
     )
 }
