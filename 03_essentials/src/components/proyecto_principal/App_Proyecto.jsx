@@ -5,7 +5,7 @@ import CoreConcept from "./CoreConcept.jsx";
 import TabButton from "./TabButton.jsx";
 import {EXAMPLES} from "./data.js";
 
-function App07() {
+function App_Proyecto() {
 
     const [selectedTopic, setSelectedTopic] = React.useState("components");
 
@@ -55,4 +55,4 @@ function App07() {
     );
 }
 
-export default App07;
+export default App_Proyecto;

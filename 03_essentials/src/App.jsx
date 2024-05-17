@@ -1,11 +1,10 @@
-
-import App_07 from "./components/proyecto_principal/App_Proyecto.jsx";
+import App_Proyecto from "./components/proyecto_principal/App_Proyecto.jsx";
 
 function App() {
 
     return (
         <>
-            <App_07/>
+            <App_Proyecto/>
 
         </>
     )
