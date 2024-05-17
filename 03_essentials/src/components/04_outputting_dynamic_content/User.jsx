@@ -10,7 +10,7 @@ inside the User component.
 You're not allowed to copy & paste the values into the component.
 `
 
-import '../assets/user_style.css'
+import '../../assets/user_style.css'
 
 export const userData = {
     firstName: 'José Luis', // feel free to replace the name value
