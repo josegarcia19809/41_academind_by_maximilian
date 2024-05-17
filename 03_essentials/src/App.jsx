@@ -1,11 +1,11 @@
 
-import App_07 from "./components/07-storing-cmp-in-files/App_07.jsx";
+import App06 from "./components/06_reacting_to_events/App_06.jsx";
 
 function App() {
 
     return (
         <>
-            <App_07/>
+            <App06/>
         </>
     )
 }
