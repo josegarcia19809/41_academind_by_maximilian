@@ -1,5 +1,5 @@
 
-import App_07 from "./components/07-storing-cmp-in-files/App_07.jsx";
+import App_07 from "./components/proyecto_principal/App_Proyecto.jsx";
 
 function App() {
 
