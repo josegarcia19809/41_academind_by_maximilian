@@ -1,4 +1,4 @@
-import componentsImg from '../assets/components.png';
+import componentsImg from '../../assets/components.png';
 
 const UsingImage = () => {
     return (

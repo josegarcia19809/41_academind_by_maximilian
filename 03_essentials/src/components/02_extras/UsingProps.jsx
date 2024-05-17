@@ -1,5 +1,5 @@
-import componentsImg from "../assets/components.png";
-import configImg from "../assets/config.png";
+import componentsImg from "../../assets/components.png";
+import configImg from "../../assets/config.png";
 
 const UsingProps = (props) => {
     return (
