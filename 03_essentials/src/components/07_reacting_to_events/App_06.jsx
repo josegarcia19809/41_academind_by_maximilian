@@ -1,4 +1,4 @@
-// Your goal is to change the email, password and loggedIn values when the button in the App component is pressed
+// Your goal is to change the email, password and loggedIn values when the button in the App_Props component is pressed
 // Change them to any values of your choice (except loggedIn => that should be changed to true)
 // You DON'T need to fetch the values entered into the <input /> fields
 // You'll learn about that later in the course - for the moment, those fields are just there to look good :-)

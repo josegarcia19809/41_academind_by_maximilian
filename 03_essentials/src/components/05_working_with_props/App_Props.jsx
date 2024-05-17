@@ -7,7 +7,7 @@ export function CourseGoal({title, description}) {
     );
 }
 
-function App() {
+function App_Props() {
     return (
         <div id="app" data-testid="app">
             <h1>Time to Practice</h1>
@@ -26,4 +26,4 @@ function App() {
     );
 }
 
-export default App;
+export default App_Props;
