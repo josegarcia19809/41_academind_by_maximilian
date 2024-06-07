@@ -4,6 +4,7 @@ import {CORE_CONCEPTS} from "./data.js";
 import CoreConcept from "./CoreConcept.jsx";
 import TabButton from "./TabButton.jsx";
 import {EXAMPLES} from "./data.js";
+import "../../index.css";
 
 function App_Proyecto() {
 
