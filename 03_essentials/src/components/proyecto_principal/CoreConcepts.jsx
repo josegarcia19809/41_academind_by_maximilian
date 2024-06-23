@@ -8,8 +8,8 @@ function CoreConcepts() {
             <section id={"core-concepts"}>
                 <h2>Core Concepts</h2>
                 <ul>
-                    {CORE_CONCEPTS.map((conceptIntem) => (
-                        <CoreConcept {...conceptIntem} key={conceptIntem.title}/>
+                    {CORE_CONCEPTS.map((conceptItem) => (
+                        <CoreConcept {...conceptItem} key={conceptItem.title}/>
                     ))}
                 </ul>
             </section>
