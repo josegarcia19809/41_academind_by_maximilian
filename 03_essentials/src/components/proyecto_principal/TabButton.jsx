@@ -1,10 +1,10 @@
-const TabButton = ({children, onSelect, isSelect}) => {
+const TabButton = ({children, isSelect, ...props}) => {
 
     return (
         <li>
             <button
                 className={isSelect ? "active" : undefined}
-                onClick={onSelect}>
+                {...props}>
                 {children}
             </button>
         </li>
