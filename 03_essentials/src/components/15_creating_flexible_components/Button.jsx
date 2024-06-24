@@ -15,7 +15,7 @@ export default function Button({children, className, mode = "filled", Icon, ...p
     if (className) {
         boton += ' ' + className;
     }
-    
+
     return (
         <>
             <button {...props}
