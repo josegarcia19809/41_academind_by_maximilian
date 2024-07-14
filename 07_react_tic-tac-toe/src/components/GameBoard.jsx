@@ -6,7 +6,7 @@ const initialGameBoard = [
     [null, null, null]
 ];
 
-function GameBoard({onSelectSquare, activePlayerSymbol}) {
+function GameBoard({onSelectSquare}) {
 
     // const [gameBoard, setGameBoard] = useState(initialGameBoard);
     // function handleSelectSquare(rowIndex, colIndex){
@@ -27,7 +27,7 @@ function GameBoard({onSelectSquare, activePlayerSymbol}) {
                         {row.map((playerSymbol, colIndex) => (
                             <li key={colIndex}>
                                 <button
-                                onClick={()=>handleSelectSquare(rowIndex, colIndex)}
+                                onClick={()=>onSelectSquare}
                                 >{playerSymbol}</button>
                             </li>
                         ))}
