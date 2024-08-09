@@ -1,0 +1,7 @@
+1. Crédito disponible
+Un programa que calcula el crédito disponible de un cliente debe solicitar al usuario lo siguiente:
+
+● La cantidad máxima de crédito del cliente.
+● La cantidad de crédito utilizada por el cliente.
+
+Una vez ingresados estos elementos, el programa debe calcular y mostrar el crédito disponible del cliente. Puedes calcular el crédito disponible restando la cantidad de crédito utilizada de la cantidad máxima de crédito.
