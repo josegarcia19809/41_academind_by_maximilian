@@ -1,4 +1,5 @@
 import {ChangeEvent, FormEvent, useReducer, useState} from "react";
+import "./CreditoDisponible.css";
 
 type Credito = {
     cantidadMaxima: number;
@@ -49,15 +50,25 @@ function CreditoDisponible() {
         <>
             <form onSubmit={handleSubmit}>
                 <h1>Crédito disponible</h1>
-                <input
-                    id="cantidadMaxima"
-                    type="number" value={+credito.cantidadMaxima} onChange={handleChange}
-                    placeholder="Ingrese cantidad máxima"/>
-                <input
-                    id="cantidadUtilizada"
-                    type="number" value={+credito.cantidadUtilizada} onChange={handleChange}
-                    placeholder="Ingrese cantidad utilizada"/>
-                <input type="submit" value="Checar Credito disponible"/>
+                <div>
+                    <label htmlFor="cantidadMaxima">Cantidad máxima:</label>
+                    <input
+                        id="cantidadMaxima"
+                        name="cantidadMaxima"
+                        type="number" value={+credito.cantidadMaxima} onChange={handleChange}
+                        placeholder="Ingrese cantidad máxima"/>
+                </div>
+                <div>
+                    <label htmlFor="cantidadUtilizada">Cantidad máxima:</label>
+                    <input
+                        id="cantidadUtilizada"
+                        name="cantidadUtilizada"
+                        type="number" value={+credito.cantidadUtilizada} onChange={handleChange}
+                        placeholder="Ingrese cantidad utilizada"/>
+                </div>
+                <div>
+                    <input type="submit" value="Checar Credito disponible"/>
+                </div>
             </form>
             <div>
                 <h2>Crédito disponible: {state.cantidadDisponible}</h2>
